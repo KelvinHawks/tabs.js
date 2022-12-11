@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    gap: 1rem;
+    width: 500px;
+    margin: 50px auto;
+}
+.content{
+    display: block;
+    text-align: start;
+    font-family: sans-serif;
+    box-shadow: 8px 8px 12px rgb(199, 199, 199);
+    background-color: rgb(240, 240, 240);
+}
+.buttons{
+    display: flex;
+}
+.buttons .active{
+    background-color: rgb(240, 240, 240);
+    color: #000;
+}
+.buttons button{
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    width: 90px;
+    margin-left: 2px;
+    color: #fff;
+    text-align: center;
+    background-color: rgb(104, 109, 114);
+   
+}
+.description{
+    display: none;
+}
+.container-div .active{
+    display: block;
+    margin: 12px;
+}
+.image img{
+    border-radius: 8px;
+    width: 320px;
+    height: 250px;
+}
